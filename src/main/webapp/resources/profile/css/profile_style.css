@@ -1,0 +1,294 @@
+.col-sm-1 + .user_logo_dropdown{
+    position: relative;
+    right: 30px;
+}
+
+
+.notifications_dropdown{
+    /*position:absolute;*/
+    /*top: 30px;*/
+}
+.span_filler{
+    height: 20px;
+    display: block;
+}
+.span_filler_1{
+    height: 5px;
+    display: block;
+}
+
+.dropdown_style{
+    /*font-size:smaller;*/
+    font-size: 1.4vmin;
+}
+.notifications_div{
+    top: 20%;
+}
+.notifications{
+    /*width:80%;*/
+
+}
+.user_logo{
+    /*width: 130%;*/
+}
+.col-sm-2{
+    padding-top: .5cm;
+}
+.col-sm-8{
+    /*padding-top: .5cm;*/
+}
+.col-sm-10{
+    padding-top: .5cm;
+}
+.btn-custom{
+    width: 15%;
+    border-radius: 10px;
+    position: relative;
+    top:5px;
+    /*padding: 10px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    width:30%;*/
+
+}
+/*#all_circuit_div{*/
+    /*margin: 5px 0;*/
+    /*font-size: 1.7vmin;*/
+/*}*/
+/*#profile_circuit_div{*/
+    /*margin: 5px 0;*/
+    /*font-size: 1.7vmin;*/
+/*}*/
+/*#shared_circuit_div{*/
+    /*margin: 5px 0;*/
+    /*font-size: 1.7vmin;*/
+/*}*/
+/*#public_circuit_div{*/
+    /*margin: 5px 0;*/
+    /*font-size: 1.7vmin;*/
+/*}*/
+
+#all_circuit_div{
+    margin: 5px 0;
+    font-size: smaller;
+}
+#profile_circuit_div{
+    margin: 5px 0;
+    font-size: smaller;
+}
+#shared_circuit_div{
+    margin: 5px 0;
+    font-size: smaller;
+}
+#public_circuit_div{
+    margin: 5px 0;
+    font-size: smaller;
+}
+.sidebar{
+
+    padding-right: .5cm;
+
+}
+#sidebar-wrap{
+    height:200px;
+    /*width:80%;*/
+    padding-top: .5cm;
+    padding-right: .5cm;
+    /*position: relative;*/
+    left: -35px;
+    background-color: #F5F5F5;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-sizing: border-box;
+
+}
+#custom-search-input {
+    margin:0;
+    margin-top: 10px;
+    padding: 0;
+}
+
+#custom-search-input .search-query {
+    padding-right: 3px;
+    padding-right: 4px \9;
+    padding-left: 3px;
+    padding-left: 4px \9;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: relative;
+    left: -28px;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #000;
+}
+
+.search-query:focus + button {
+    z-index: 3;
+}
+
+ body {
+    overflow-x: hidden;
+ }
+
+/* Toggle Styles */
+
+#wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapper.toggled #page-content-wrapper {
+    position: absolute;
+    margin-right: -250px;
+}
+
+/*!* Sidebar Styles *!*/
+
+/*.sidebar-nav {*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*width: 250px;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*list-style: none;*/
+/*}*/
+
+/*.sidebar-nav li {*/
+    /*text-indent: 20px;*/
+    /*line-height: 40px;*/
+/*}*/
+
+/*.sidebar-nav li a {*/
+    /*display: block;*/
+    /*text-decoration: none;*/
+    /*color: #000;*/
+/*}*/
+
+/*.sidebar-nav li a:hover {*/
+    /*text-decoration: none;*/
+    /*color: #000;*/
+    /*background: rgba(255,255,255,0.2);*/
+/*}*/
+
+/*.sidebar-nav li a:active,*/
+/*.sidebar-nav li a:focus {*/
+    /*text-decoration: none;*/
+/*}*/
+
+/*.sidebar-nav > .sidebar-brand {*/
+    /*height: 65px;*/
+    /*font-size: 18px;*/
+    /*line-height: 60px;*/
+/*}*/
+
+/*.sidebar-nav > .sidebar-brand a {*/
+    /*color: #000;*/
+/*}*/
+
+/*.sidebar-nav > .sidebar-brand a:hover {*/
+    /*color: #fff;*/
+    /*background: none;*/
+/*}*/
+
+.panel-table .panel-body{
+    padding:0;
+}
+
+.panel-table .panel-body .table-bordered{
+    border-style: none;
+    margin:0;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type {
+    text-align:center;
+    width: 200px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:last-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:last-of-type {
+    border-right: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:first-of-type {
+    border-left: 0px;
+}
+
+.panel-table .panel-body .table-bordered > tbody > tr:first-of-type > td{
+    border-bottom: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr:first-of-type > th{
+    border-top: 0px;
+}
+
+.panel-table .panel-footer .pagination{
+    margin:0;
+}
+
+/*
+used to vertically center elements, may need modification if you're not using default sizes.
+*/
+.panel-table .panel-footer .col{
+    line-height: 34px;
+    height: 34px;
+}
+
+.panel-table .panel-heading .col h3{
+    line-height: 30px;
+    height: 30px;
+}
+
+.panel-table .panel-body .table-bordered > tbody > tr > td{
+    line-height: 34px;
+}
+
+
+

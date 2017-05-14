@@ -1,0 +1,37 @@
+.share-menu{
+	visibility: hidden;
+	background-color: white;
+	padding: 10px 20px;
+	display: inline-block;
+
+	display: inline-block;
+	position: fixed;
+	text-align: center;
+
+	border-radius: 20px;
+
+	top:100px;
+	left:100px;
+}
+
+.share-menu p{
+	font-size: 20px;
+}
+
+.share-menu div{
+	padding: 5px;
+	text-align: center;
+}
+
+.share-menu #submit-shared{
+	float:right;
+}
+
+.share-menu #shared-text{
+    width: 40em;
+    height: 4em;
+}
+
+.share-menu.show{
+	visibility: visible;
+}
