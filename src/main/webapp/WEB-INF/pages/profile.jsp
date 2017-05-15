@@ -59,7 +59,7 @@
         <ul class="dropdown-menu">
           <li class="dropdown-header"><a href="/profile/notifications">Notifications</a></li>
           <c:forEach items="${notification_Names}" var="notification_Name" varStatus="status">
-            <li class="dropdown_style"><a href="/profile/loadCircuitFromNotification?searchParams=owner%3A${notification_Owners[status.index]}+${notification_Name}"> ${notification_Owners[status.index]} has shared ${notification_Name} with you! </a></li>
+            <li class="dropdown_style"><a href="/profile/loadCircuitFromNotification?searchParams=owner%3A${notification_Owners[status.index]}+${notification_Name}"> ${notification_Owners[status.index]} has shared ${notification_Name} with you!</a></li>
           </c:forEach>
         </ul>
       </div>
@@ -149,6 +149,14 @@
                               <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
                           </a>
                       </c:if>
+
+                      <a class="btn btn-default">
+                        <span class="glyphicon glyphicon-screenshot" aria-hidden="true"></span>
+                      </a>
+
+                      <a class="btn btn-default">
+                        <span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+                      </a>
 
 
                     </td>
@@ -479,7 +487,9 @@
 
 </body>
 <script>
-    $(document).ready(function(){
+
+//    document.getElementsByClassName("dropdown_style").listyle.backgroundColor="red";
+      $(document).ready(function(){
         $(".table_all_circuits").show();
         $(".table_owned").hide();
         $(".table_public").hide();
